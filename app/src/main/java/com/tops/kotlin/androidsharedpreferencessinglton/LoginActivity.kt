@@ -42,13 +42,4 @@ class LoginActivity : AppCompatActivity() {
             finish()
         }
     }
-
-    /*override fun onResume() {
-        super.onResume()
-        prefManager = PrefManager.getInstance(this)
-        if (prefManager.isLogin()) {
-            startActivity(Intent(this, HomeActivity::class.java))
-            finish()
-        }
-    }*/
 }
